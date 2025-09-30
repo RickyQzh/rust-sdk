@@ -45,6 +45,7 @@ tower-http = { version = "0.6", features = ["cors"] }
 hyper = { version = "1" }
 hyper-util = { version = "0", features = ["server"] }
 tokio-util = { version = "0.7" }
+undrift_gps = "0.3"
 
 [dev-dependencies]
 tokio-stream = { version = "0.1" }
@@ -105,3 +106,7 @@ path = "src/completion_stdio.rs"
 [[example]]
 name = "servers_progress_demo"
 path = "src/progress_demo.rs"
+
+[[example]]
+name = "servers_movie_sse"
+path = "src/movie_sse.rs"
